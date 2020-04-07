@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>WhiteBoard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="login.css">
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href ="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+    
+</head>
+
+<body>
+
+<div id="main">
+    <div class="main">
+        <form action="/" method="post">
+            <h1 style="background-color: rgba(138,199,84,1);">
+                Login
+            </h1>
+
+            <div>
+                <div class="inset">
+                <div class="input-container">
+                    <i class="fa fa-envelope icon"></i>
+                    <input class="input-field" type="text" placeholder="Email" name="email">
+                  </div>
+                </div>
+                  <div class="inset">
+                  <div class="input-container">
+                    <i class="fa fa-key icon"></i>
+                    <input class="input-field" type="password" placeholder="Password" name="psw">
+                  </div>
+                </div>
+            </div><br>
+            
+            <p class="p-container">
+                <input type="submit" class="login-log" value="SignIn">
+            </p>
+            <br>
+            <span style="margin-left:15px;"><a href="/signup">Forgot password</a></span>
+            <span style="float:right;margin-right: 15px;"><a href="/signup">Register</a></span>
+            <h4 class="text-divider"><span>OR</span></h4>
+            <h1>
+                <a href="/auth/facebook" class="btn-social btn-facebook btn-lg">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </h1>
+            <h1>
+                <a href="/auth/google" class="btn-social btn-gplus btn-lg">
+                    <i class="fa fa-google" aria-hidden="true"></i>
+                </a>
+            </h1>
+            <br><br>
+            <p class="p-container">
+                <input type="submit" class="login-log" value="Login">
+            </p>
+        </form>
+    </div>
+</div>
+
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
